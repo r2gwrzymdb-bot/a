@@ -1,0 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Playfair Display', serif;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#ffdde1,#ee9ca7);
+}
+
+/* CENTER CARD */
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.card{
+  background:rgba(255,255,255,0.8);
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  width:300px;
+  box-shadow:0 10px 40px rgba(0,0,0,0.15);
+  backdrop-filter:blur(10px);
+}
+
+/* TEXT */
+h1{
+  color:#b3005e;
+  margin-bottom:15px;
+}
+
+p{
+  color:#444;
+  margin-bottom:20px;
+  font-size:16px;
+  line-height:1.6;
+}
+
+/* BUTTON */
+button{
+  padding:12px 20px;
+  border:none;
+  border-radius:25px;
+  background:#ff4d88;
+  color:white;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.05);
+  background:#e6005c;
+}
